@@ -1,5 +1,5 @@
 function LoginUi() {
-  clickLoginButton = document.querySelector(".login-page-button").addEventListener("click", () => {
+  clickLoginButton = document.querySelector(".sign-in-page-button").addEventListener("click", () => {
     document.querySelector(".the-page").innerHTML = `<h1>LOG-IN</h1>
     <form action="">
       <label for="user-id">学籍番号</label>
@@ -20,4 +20,4 @@ function LoginUi() {
   });
 }
 
-document.querySelector('.login-page-button').addEventListener("click",LoginUi())
+document.querySelector('.sign-in-page-button').addEventListener("click",LoginUi())
