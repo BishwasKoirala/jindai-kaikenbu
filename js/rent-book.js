@@ -2,7 +2,7 @@
 document.querySelector('.js-rent-return-button').innerHTML = `
 <button class="rent-book-button">本の拝借</button>
 <button class="return-book-button">本の返却</button>
-`
+`;
 
 let bookHtml = {
   rentBook:`
