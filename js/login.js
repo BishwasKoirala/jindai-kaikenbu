@@ -1,5 +1,5 @@
 document.querySelector('.login-html').innerHTML = `
-  <h1>
+  <h1 class = "header-jindai-kaikenbu">
     神奈川大学会計学研究部
   </h1>
   <h1>LOG-IN</h1>

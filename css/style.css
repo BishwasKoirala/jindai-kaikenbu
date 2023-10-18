@@ -1,17 +1,28 @@
 *{
-  background-color: rgb(80, 185, 119);
+  background-color: rgb(172, 191, 191);
+  text-align: center;
 }
 button{
   line-height: 200%;
   border-radius: 100em;
-  background-color: rgb(89, 87, 87);
+  background-color: rgb(132, 154, 108);
   color: white;
   text-align: center;
   font-weight: bold;
 }
 
+/* somebody explain me wtf is this code */
 @media only screen and (max-width: 600px) {
   * {
     background-color: rgb(80, 185, 119);
   }
 }
+
+.title-rent-book{
+  color: darkblue;
+}
+
+.title-return-book{
+  color: darkred;
+}
+

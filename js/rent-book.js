@@ -6,7 +6,7 @@ document.querySelector('.js-rent-return-button').innerHTML = `
 
 let bookHtml = {
   rentBook:`
-  <h3>本の拝借登録</h3>
+  <h3 class="title-rent-book">本の拝借登録</h3>
   <select name="rent-book" id="rent-book">
     <option value="null" selected>本を選択</option>
     <option value="exmpbook">簿記一級参考書</option>]]
@@ -14,7 +14,7 @@ let bookHtml = {
   <button>登録</button>
   `,
   returnBook:`
-  <h3>本の返却登録</h3>
+  <h3 class="title-return-book">本の返却登録</h3>
   <select name="return-book" id="return-book">
     <option value="null" selected>本を選択</option>
     <option value="exmpbook">簿記一級参考書</option>
