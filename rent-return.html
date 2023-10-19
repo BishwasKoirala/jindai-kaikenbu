@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>本の貸し借り</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>本の貸し借り</h1>
+  <form name="rent-return" id="rent-return-form">
+    <label for="name">名前</label>
+      <input type="text" name="name" id="name" class="input" required><br><br>
+    <label for="rent-book">本</label>
+      <input type="text" name="rent-book" id="rent-book" class="input" required><br><br>
+    <label for="rent-or-return">借りるか返すか</label><br>
+    <select name="rent-or-return" id="rent-or-return" type="text" class="input" required >
+      <option value="">借りるか返すか選択して</option>
+      <option value="rent-this-book" type="text" class="input">これを借りる</option>
+      <option value="return-this-book" type="text" class="input">これを返す</option>
+    </select><br><br>
+    <button type="reset" class="reset-button" style="background-color: red;">reset</button>
+    &nbsp;
+    <button type="submit">..登録..</button>
+  </form>
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  <script src="js/rent-return.js"></script>
+</body>
+</html>
