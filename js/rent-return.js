@@ -8,7 +8,7 @@ const form = document.querySelector('#rent-return-form')
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
 
-  const formInputs = form.querySelectorAll('input')
+  const formInputs = form.querySelectorAll('input,select')
   
   let submission = {}
 
