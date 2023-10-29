@@ -14,7 +14,7 @@ button{
 /* somebody explain me wtf is this code */
 @media only screen and (max-width: 600px) {
   * {
-    background-color: rgb(80, 185, 119);
+    background-color: rgb(172, 191, 191);
   }
 }
 
